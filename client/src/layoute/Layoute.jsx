@@ -3,6 +3,7 @@ import { Outlet } from 'react-router'
 import Navbar from '../components/Navbar'
 import AboutUs from '../components/AboutUs'
 import FoodCategory from '../components/FoodCategory'
+import WhyChooseUs from '../components/WhyChooseUs'
 
 const Layoute = () => {
   return (
@@ -11,6 +12,7 @@ const Layoute = () => {
         <Navbar/>
         <AboutUs/>
         <FoodCategory/>
+        <WhyChooseUs/>
         <Outlet/>
      </div> 
     </>

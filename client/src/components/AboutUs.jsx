@@ -9,7 +9,7 @@ import SectionTitle from "./reuseableComponents/SectionTitle";
 const AboutUs = () => {
   return (
     <>
-      <div className="w-330 flex justify-center items-center pt-[120px] m-auto">
+      <div className="w-330 flex justify-center items-center pt-30 m-auto">
         <div className="flex  gap-[98px]">
           {/* left content */}
           <div>
