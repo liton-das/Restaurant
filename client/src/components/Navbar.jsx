@@ -9,6 +9,7 @@ import leaf from "../assets/leaf.png";
 import { SlSocialFacebook } from "react-icons/sl";
 import { CiTwitter } from "react-icons/ci";
 import { SlSocialInstagram } from "react-icons/sl";
+import Button from "./reuseableComponents/Button";
 const Navbar = () => {
   return (
     <div
@@ -58,8 +59,8 @@ const Navbar = () => {
           </div>
 
           {/* Text */}
-          <div>
-            <h4 className="text-[#FF9F0D] mb-2">Its Quick & Amusing!</h4>
+          <div className="pt-6.5">
+            <h4 className="text-[#FF9F0D] mb-2 text-[32px] font-great font-normal">Its Quick & Amusing!</h4>
 
             <h1 className="text-white font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl max-w-xl">
               <span className="text-[#FF9F0D]">Th</span>e Art of speed food Quality
@@ -70,9 +71,7 @@ const Navbar = () => {
               neque massa congue
             </p>
 
-            <button className="mt-6 bg-[#FF9F0D] text-white px-10 py-3 rounded-full hover:scale-105 transition">
-              See More
-            </button>
+            <Button btnText={'See More'}/>
           </div>
         </div>
 
