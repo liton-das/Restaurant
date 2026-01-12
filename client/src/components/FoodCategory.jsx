@@ -10,13 +10,15 @@ const FoodCategory = () => {
   return (
     <>
       {/* main div */}
-      <div className="pt-[120px]">
+      <div className="pt-30">
         <div className="m-auto text-center">
-          <SectionTitle title={"Food Category"} />
+          <div className="lg:mx-auto text-center">
+            <SectionTitle title={"Food Category"} />
+          </div>
           <SectionHead colorText={"Ch"} simpleText={"oose Food Iteam"} />
         </div>
         {/* container */}
-        <div className="w-330 m-auto mt-[56px] flex items-center gap-8 m-auto">
+        <div className="lg:w-330 w-70 m-auto mt-14 flex flex-wrap lg:flex lg:items-center lg:gap-8 gap-3">
           {/* card items */}
           <ProductCard img={food1} discount={'Save 30%'} discountTitle={'Fast Food Dish'}/>
           <ProductCard img={food2} discount={'Save 20%'} discountTitle={'Fast Food Dish'} />

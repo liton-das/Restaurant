@@ -1,9 +1,9 @@
 import React from "react";
 
-const ProductCard = ({img,discount,discountTitle}) => {
+const ProductCard = ({ img, discount, discountTitle }) => {
   return (
     <>
-      <div className="w-76.25 rounded-md overflow-hidden relative group cursor-pointer">
+      <div className="lg:w-76.25 w-[280px]  rounded-md overflow-hidden relative group cursor-pointer">
         <img className="w-full rounded-md" src={img} alt="foodImg" />
 
         <div className="absolute top-1/2 -translate-y-1/2 left-0 w-full">

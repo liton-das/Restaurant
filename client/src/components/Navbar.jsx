@@ -25,11 +25,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col lg:flex-row gap-4 lg:gap-0 justify-between items-center">
         {/* Menu */}
         <ul className="hidden md:flex flex-wrap justify-center gap-6 text-white text-sm lg:text-base">
-          <li>Home</li>
+          <li><a href="#">Home</a></li>
           <li>Menu</li>
           <li>Blog</li>
           <li>Pages</li>
-          <li>About</li>
+          <li> <a href="#about">About</a></li>
           <li>Shop</li>
           <li>Contact</li>
         </ul>
@@ -102,13 +102,13 @@ const Navbar = () => {
             </div>
           </div>
           {/* Decorations */}
-          <div className="w-full absolute top-[18%] right-[8%]">
+          <div className="w-full absolute top-[18%] lg:right-[15%] lg:left-3 -left-15">
             <div className="relative">
-              <img src={leaf} className="absolute -top-30 -right-30 w-s-80 sm:w-32 md:w-62.5" alt="leaf" />
+              <img src={leaf} className="absolute -top-30 -right-30 w-s-80 sm:w-32 w-[200px] lg:w-62.5" alt="leaf" />
 
               <img
                 src={Rectangle8926}
-                className="absolute -top-12 -right-18 w-87.5 sm:w-32 md:w-95"
+                className="absolute lg:-top-12 -top-12 -right-18  sm:w-32 w-[240px] lg:w-95"
                 alt="rectangle"
               />
             </div>
