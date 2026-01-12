@@ -15,7 +15,7 @@ const WhyChooseUs = () => {
     <div className="w-50 lg:w-330 md:w-305 m-auto py-30 ">
       <div
         className="flex flex-wrap-reverse gap-3 justify-center
-                lg:flex-nowrap lg:gap-33.50 lg:mx-auto items-center"
+                lg:flex-nowrap lg:justify-center lg:gap-33.50 items-center"
       >
         {/* left content */}
         <div>
